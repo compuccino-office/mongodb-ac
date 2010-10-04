@@ -3,13 +3,13 @@ Simple Analyze der Collection Strukur für MongoDB
 
 use:
 	mongo <dbname>
- 	\>load("ac.js")
- 	\>ac("<collection-name>")
+ 	>load("ac.js")
+ 	>ac("<collection-name>")
  	# or
-	\>ac("<collection-name>", "<to permanent save collection-name>")
+	>ac("<collection-name>", "<to permanent save collection-name>")
 	# generate data
-	\>load('fillcoll.js')
+	>load('fillcoll.js')
  	# generate test data and how ac() works.
- 	\>testdata()
+ 	>testdata()
 	# generate random data
- 	\>fillcoll("random_coll")
+ 	>fillcoll("random_coll")
