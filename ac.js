@@ -173,4 +173,7 @@ function acField( fieldName, collectionName, outName ) {
 		}
 		c++;
 	} );
+	if( !outName ) {
+		db[res.result].drop();
+	}
 }
