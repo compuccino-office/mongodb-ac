@@ -4,7 +4,7 @@
  * ac = analyze collection
  * use:
  * mongo <dbname>
- * > load("collection.analyze.js")
+ * > load("ac.js")
  * > ac("<collection-name>")
  * or
  * > ac("<collection-name>", "<to permanent save collection-name>")
